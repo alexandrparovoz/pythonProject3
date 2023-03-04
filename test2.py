@@ -21,6 +21,7 @@ while cur_page < max_page:
         text.append(a.text.strip())
         count += 1
     cur_page += 1
+
 d = {'название':text, 'cсылка':hr}
 p = pd.DataFrame(d)
 writer = pd.ExcelWriter('output.xlsx')

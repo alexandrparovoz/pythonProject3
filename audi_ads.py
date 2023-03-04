@@ -1,4 +1,4 @@
-# пример построения таблицы на основе парсинга сайта yandex.com/weather
+# пример построения таблицы на основе парсинга сайта av.by
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
